@@ -1,0 +1,23 @@
+#! /bin/sh
+
+dunst&
+sxhkd &
+wal -R &
+dunstify -u normal "welcome DinoDevil  " &
+picom  --config ~/.config/picom/picom.conf -b &
+$HOME/.config/polybar/launch.sh &
+
+bspc monitor -d I II III IV V
+
+bspc config border_width         0
+bspc config window_gap           16
+
+bspc config split_ratio          0.50
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc config border_width       0
+bspc config normal_border_color "#1B4552"
+bspc config focused_border_color "#d5ccaa"
+
+bspc config pointer_modifier mod1
