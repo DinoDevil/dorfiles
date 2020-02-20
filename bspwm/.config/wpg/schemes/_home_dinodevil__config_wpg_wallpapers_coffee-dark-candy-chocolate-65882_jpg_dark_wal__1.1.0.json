@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/dinodevil/.config/wpg/wallpapers/coffee-dark-candy-chocolate-65882.jpg",
+    "alpha": "80",
+
+    "special": {
+        "background": "#0b0708",
+        "foreground": "#c9c0a9",
+        "cursor": "#c9c0a9"
+    },
+    "colors": {
+        "color0": "#0b0708",
+        "color1": "#563C42",
+        "color2": "#766147",
+        "color3": "#93652F",
+        "color4": "#8C724F",
+        "color5": "#C27F40",
+        "color6": "#BE9947",
+        "color7": "#c9c0a9",
+        "color8": "#8c8676",
+        "color9": "#563C42",
+        "color10": "#766147",
+        "color11": "#93652F",
+        "color12": "#8C724F",
+        "color13": "#C27F40",
+        "color14": "#BE9947",
+        "color15": "#c9c0a9"
+    }
+}

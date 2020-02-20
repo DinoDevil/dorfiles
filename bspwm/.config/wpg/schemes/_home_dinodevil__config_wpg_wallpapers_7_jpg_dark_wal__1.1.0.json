@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/dinodevil/.config/wpg/wallpapers/7.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#12161e",
+        "foreground": "#d5dfe7",
+        "cursor": "#d5dfe7"
+    },
+    "colors": {
+        "color0": "#12161e",
+        "color1": "#82815D",
+        "color2": "#58778A",
+        "color3": "#6E8A9E",
+        "color4": "#AAA6A8",
+        "color5": "#A0B6CA",
+        "color6": "#B3C5D0",
+        "color7": "#d5dfe7",
+        "color8": "#959ca1",
+        "color9": "#82815D",
+        "color10": "#58778A",
+        "color11": "#6E8A9E",
+        "color12": "#AAA6A8",
+        "color13": "#A0B6CA",
+        "color14": "#B3C5D0",
+        "color15": "#d5dfe7"
+    }
+}

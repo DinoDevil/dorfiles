@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/dinodevil/.config/wpg/wallpapers/chocolates-and-raspberries-918327.jpg",
+    "alpha": "80",
+
+    "special": {
+        "background": "#0a1011",
+        "foreground": "#eac9c6",
+        "cursor": "#eac9c6"
+    },
+    "colors": {
+        "color0": "#0a1011",
+        "color1": "#3A4965",
+        "color2": "#595859",
+        "color3": "#C34A4B",
+        "color4": "#B38976",
+        "color5": "#967C88",
+        "color6": "#B5A5A0",
+        "color7": "#eac9c6",
+        "color8": "#a38c8a",
+        "color9": "#3A4965",
+        "color10": "#595859",
+        "color11": "#C34A4B",
+        "color12": "#B38976",
+        "color13": "#967C88",
+        "color14": "#B5A5A0",
+        "color15": "#eac9c6"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/dinodevil/.config/wpg/wallpapers/silhouette-of-man-standing-against-black-and-red-background-333850.jpg",
+    "alpha": "80",
+
+    "special": {
+        "background": "#090404",
+        "foreground": "#f1999b",
+        "cursor": "#f1999b"
+    },
+    "colors": {
+        "color0": "#090404",
+        "color1": "#C60A11",
+        "color2": "#EA091D",
+        "color3": "#D21526",
+        "color4": "#F30D27",
+        "color5": "#F7263A",
+        "color6": "#FB3145",
+        "color7": "#f1999b",
+        "color8": "#a86b6c",
+        "color9": "#C60A11",
+        "color10": "#EA091D",
+        "color11": "#D21526",
+        "color12": "#F30D27",
+        "color13": "#F7263A",
+        "color14": "#FB3145",
+        "color15": "#f1999b"
+    }
+}

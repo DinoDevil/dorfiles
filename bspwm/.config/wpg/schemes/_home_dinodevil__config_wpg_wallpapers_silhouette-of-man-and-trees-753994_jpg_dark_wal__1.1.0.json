@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/dinodevil/.config/wpg/wallpapers/silhouette-of-man-and-trees-753994.jpg",
+    "alpha": "80",
+
+    "special": {
+        "background": "#07090A",
+        "foreground": "#c7bcbe",
+        "cursor": "#c7bcbe"
+    },
+    "colors": {
+        "color0": "#07090A",
+        "color1": "#255362",
+        "color2": "#5B6069",
+        "color3": "#986769",
+        "color4": "#C06260",
+        "color5": "#767A82",
+        "color6": "#A38181",
+        "color7": "#c7bcbe",
+        "color8": "#8b8385",
+        "color9": "#255362",
+        "color10": "#5B6069",
+        "color11": "#986769",
+        "color12": "#C06260",
+        "color13": "#767A82",
+        "color14": "#A38181",
+        "color15": "#c7bcbe"
+    }
+}
