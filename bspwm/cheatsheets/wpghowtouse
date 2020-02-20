@@ -1,0 +1,8 @@
+if any line needs to be edited do this :-
+copy the template from the wpg/templates folder to the polybar folder
+then wpg -td config_polybar_config.base
+then delete config & config.bak from the polybar folder
+then rename the template to config
+edit
+then relink with wpg -ta ~/.config/polybar/config
+wpg -m

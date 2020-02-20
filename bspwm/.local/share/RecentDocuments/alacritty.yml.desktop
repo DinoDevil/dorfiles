@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-x-yaml
+Name=alacritty.yml
+Type=Link
+URL[$e]=file:$HOME/Downloads/alacritty.yml
+X-KDE-LastOpenedWith=

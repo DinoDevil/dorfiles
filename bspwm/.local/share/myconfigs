@@ -1,0 +1,3 @@
+bspwm	~/.config/bspwm/bspwmrc
+sxhkd	~/.config/sxhkd/sxhkdrc
+polybar-wpg	~/.config/wpg/templates/config_polybar_config.base

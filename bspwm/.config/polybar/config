@@ -1,24 +1,24 @@
 [colors]
-background = #121c21
-foreground = #c9c5c7
-active = #6C514B
-inactive = #121c21
-highlight = #121c21
-background-time = #A5847B
-foreground-time = #c9c5c7
-background-ws = #926E6C
-foreground-ws = #c9c5c7
-foreground-sp = #c9c5c7
-background-sp = #A5847B
-foreground-xn = #6D8C9A
-background-xn = #6C514B
-foreground-wf = #6C514B
-background-wf = #6C514B
-error = #A5847B
-primary = #926E6C
-secondary= #6D8C9A
-third = #6C514B
-alert= #121c21
+background = #110716
+foreground = #efe4ce
+active = #946A66
+inactive = #110716
+highlight = #110716
+background-time = #B58E76
+foreground-time = #efe4ce
+background-ws = #C5705E
+foreground-ws = #efe4ce
+foreground-sp = #efe4ce
+background-sp = #B58E76
+foreground-xn = #C7AA8D
+background-xn = #946A66
+foreground-wf = #946A66
+background-wf = #946A66
+error = #B58E76
+primary = #C5705E
+secondary= #C7AA8D
+third = #946A66
+alert= #110716
 
 [bar/main]
 override-redirect = false
@@ -29,8 +29,8 @@ offset-y = 0
 radius = 0.0
 fixed-center = true
 
-background = #121c2100
-foreground = #c9c5c7
+background = #11071600
+foreground = #efe4ce
 
 line-size = 0
 label-line-color = #00000000

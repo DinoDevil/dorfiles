@@ -1,0 +1,41 @@
+[2020.02.16 17:23:39] Launched version: 1009009, install beta: [FALSE], alpha: 0, debug mode: [FALSE], test dc: [FALSE]
+[2020.02.16 17:23:39] Executable dir: /usr/bin/, name: telegram-desktop-bin
+[2020.02.16 17:23:39] Initial working dir: /home/dinodevil/
+[2020.02.16 17:23:39] Working dir: /home/dinodevil/.local/share/TelegramDesktop/
+[2020.02.16 17:23:39] Command line: /usr/bin/telegram-desktop-bin --
+[2020.02.16 17:23:39] Executable path before check: /usr/bin/telegram-desktop-bin
+[2020.02.16 17:23:39] Logs started
+[2020.02.16 17:23:39] Connecting local socket to /run/user/1000/05ab4c8888d423724ad3163d7a1bb684-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2020.02.16 17:23:39] This is the only instance of Telegram, starting server and app...
+[2020.02.16 17:23:39] Moved logging from '/home/dinodevil/.local/share/TelegramDesktop/log_start0.txt' to '/home/dinodevil/.local/share/TelegramDesktop/log.txt'!
+[2020.02.16 17:23:39] Primary screen DPI: 102
+[2020.02.16 17:23:39] Could not load 'ayatana-appindicator3' with version 1 :(
+[2020.02.16 17:23:39] Error: failed to load 'gdk_x11_drawable_get_xdisplay' function!
+[2020.02.16 17:23:39] Getting DE, XDG_CURRENT_DESKTOP: ''
+[2020.02.16 17:23:39] Getting DE, DESKTOP_SESSION: '/usr/share/xsessions/bspwm'
+[2020.02.16 17:23:39] Getting DE, KDE_SESSION_VERSION: ''
+[2020.02.16 17:23:39] Getting DE, GNOME_DESKTOP_SESSION_ID: ''
+[2020.02.16 17:23:39] Getting DE, KDE_FULL_SESSION: ''
+[2020.02.16 17:23:39] DE: Other
+[2020.02.16 17:23:39] Tray Icon: Try Qt = [TRUE], Prefer appindicator = [FALSE]
+[2020.02.16 17:23:39] App Info: reading settings...
+[2020.02.16 17:23:39] App Info: reading encrypted settings...
+[2020.02.16 17:23:39] Lang Info: Loaded cached, keys: 2581
+[2020.02.16 17:23:40] OpenAL Logging Level: (not set)
+[2020.02.16 17:23:40] Audio Playback Devices: OpenAL Soft
+[2020.02.16 17:23:40] Audio Playback Default Device: OpenAL Soft
+[2020.02.16 17:23:40] Audio Capture Devices: Built-in Audio Analog Stereo;Monitor of Built-in Audio Analog Stereo
+[2020.02.16 17:23:40] Audio Capture Default Device: Built-in Audio Analog Stereo
+[2020.02.16 17:23:40] App Info: reading map...
+[2020.02.16 17:23:40] App Info: reading encrypted map...
+[2020.02.16 17:23:40] App Info: reading encrypted user settings...
+[2020.02.16 17:23:40] App Info: encrypted user settings read.
+[2020.02.16 17:23:41] App Info: reading encrypted mtp data...
+[2020.02.16 17:23:41] MTP Info: read keys, current: 5, to destroy: 0
+[2020.02.16 17:23:41] Map read time: 155
+[2020.02.16 17:23:41] TCP Error: network - Network unreachable
+[2020.02.16 17:23:41] HTTP Error: network error 99 - Network unreachable
+[2020.02.16 17:23:42] Export Info: Destroy top bar by controller removal.
+[2020.02.16 17:23:42] Using Qt tray icon.
+[2020.02.16 17:23:42] Tray Icon: Using Qt tray icon, available: [FALSE]
+[2020.02.16 17:23:42] Not using Unity Launcher count.

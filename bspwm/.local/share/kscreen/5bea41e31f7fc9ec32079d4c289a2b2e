@@ -1,0 +1,24 @@
+[
+    {
+        "enabled": true,
+        "id": "LVDS",
+        "metadata": {
+            "name": "LVDS"
+        },
+        "mode": {
+            "refresh": 60.00103759765625,
+            "size": {
+                "height": 768,
+                "width": 1366
+            }
+        },
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "primary": true,
+        "replicate": "",
+        "rotation": 1,
+        "scale": 1
+    }
+]

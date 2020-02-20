@@ -1,0 +1,12 @@
+#!/bin/sh
+
+fp="$1"
+wp=$(basename "$1")
+foo=$(wpg -l | grep "$wp")
+
+if [ ! "$foo" ]; then
+	wpg -a "$fp"
+	wpg -s "$wp"
+else
+	wpg -s "$wp"
+fi

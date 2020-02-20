@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-octet-stream
+Name=compton
+Type=Link
+URL[$e]=file:$HOME/Downloads/compton
+X-KDE-LastOpenedWith=org.kde.ark
