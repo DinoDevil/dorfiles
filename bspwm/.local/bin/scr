@@ -18,3 +18,4 @@ dn1="$dir/$name1.png" &&
 mv "$dn" "$dn1" || exit
 
 notify-send "pic taken"
+xclip -selection c -t "image/png" -i $file

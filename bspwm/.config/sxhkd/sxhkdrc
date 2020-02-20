@@ -6,75 +6,43 @@ super + shift + Return
 	
 super + space
 	rofi -show combi -combi-modi "window#drun#run" -modi combi
-super + t
+alt + t
 	notify-send "Data:$(date "+%F (%a) Time: %H:%M")" "$(acpi)\nDesktop: $(bspc query -D -d focused --names)\nNetwork Connected : $(nmcli -t -f name connection show --active)\nVolume: $(amixer -D pulse get Master | grep -o '[0-9][0-9]*%' | head -1)"  
-super + shift + Escape
-	bspc quit
-super + f
-	dunstify "Firefox Started" && firefox  
-super + q
-	bspc node -k
+;super + f
+;	dunstify "Firefox Started" && firefox  
 
-ctrl + {Left,Down,Up,Right}
-	bspc node -{f} {west,south,north,east}
+super + m
+	spotify
 
-super + {shift , _ + }{Left,Down,Up,Right}
-	bspc node -{f,s} {west,south,north,east}
 
 super + Escape
 	pkill -USR1 -x sxhkd && notify-send "sxhkd reloaded"
 
-# move the window into the selected area
-super + shift + {a,s,w,d}
-    bspc node -n {west,south,north,east}
 
 #super + d
 #	notify-send "Desktop: $(bspc query -D -d focused --names)"
 
 
 
-# focus or send to the given desktop
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} focused:'^{1-9,10}'; \
-	nottop
-
--
 
 #super + v 
 #	notify-send "Volume: $(amixer -D pulse get Master | grep -o '[0-9][0-9]*%' | head -1)"
 
 
 
-shift + alt + {Right,Left}
-    dir={next,prev}       ; \
-    bspc node -d    "$dir"; \
-    bspc desktop -f "$dir"; \
-    nottop
-
-ctrl + alt + {Right,Left}
-    bspc desktop -f {next,prev}; \
-    nottop
 
 
 super + {F4,F3}
     vol {up,down}
 
-alt + m
-	bspc desktop -l next
-alt + {t,s,f,p}
-       bspc node -t {tiled,floating,fullscreen,pseudo_tiled}
 
-super + i 
-	notify-send "Please connect to a wifi network DinoDevil" && urxvt -e nmtui-connect 
+;super + i 
+;	notify-send "Please connect to a wifi network DinoDevil" && urxvt -e nmtui-connect 
 
 alt + i
 	notify-send " Network Connected : $(nmcli -t -f name connection show --active)"
 
 
-
-# move a floating window
-super + {Left,Down,Up,Right}
-	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 super + p
 	 dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
@@ -88,36 +56,6 @@ super + b
 super + c
 	configopen	
 
-# PRESELECT
-
-# preselect the direction
-super + ctrl + {h,j,k,l}
-	bspc node -p {west,south,north,east}
-
-# preselect the ratio
-super + ctrl + {1-9}
-	bspc node -o 0.{1-9}
-
-# cancel the preselection for the focused node
-super + ctrl + space
-	bspc node -p cancel
-
-# cancel the preselection for the focused desktop
-super + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
-
-
-# MOVE/RESIZE
-
-# expand a window by moving one of its side outward
-ctrl + alt + {h,j,k,l}
-	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
-
-# contract a window by moving one of its side inward
-ctrl + alt + shift + {h,j,k,l}
-	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
-
-	
 
 # take a screenshot of a selection
 Print
@@ -127,6 +65,10 @@ Print
 shift + Print
   maim -s -l -c 0.3,0,0.5,0.3 | curl -F "file=@-" 0x0.st | xclip -selection clipboard
 
+# take a screenshot of a selection, copy to clipbard
+ctrl + shift + Print
+  maim -s -l -c 0.3,0,0.5,0.3 | xclip -selection c -t "image/png" 
+
 # start/stop a gif recording of a selection
 ctrl + Print
   { giph -s -l -c 0.3\,0\,0.5\,0.3 ~/Videos/$(date +%s).gif, killall -INT -g giph }
@@ -134,3 +76,7 @@ ctrl + Print
 # start/stop a gif recording of a selection, upload to 0x0.st and copy url to clipboard
 ctrl + shift + Print
   { giph -s -l -c 0.3\,0\,0.5\,0.3 | (trap '' INT; curl -F "file=@-" 0x0.st | xclip -selection clipboard), killall -INT -g giph }	
+
+
+
+  

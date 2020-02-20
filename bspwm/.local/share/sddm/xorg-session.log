@@ -1,14 +1,10 @@
-Unknown keysym name: '_'.
-Unknown keysym name: '_'.
-Unknown keysym name: '_'.
-Unknown keysym name: '_'.
-[ 02/20/2020 09:11:41.893 parse_config_libconfig WARN ] Option `no-dock-shadow` is deprecated, and will be removed. Please use the wintype option `shadow` of `dock` instead.
-[ 02/20/2020 09:11:42.300 swopti_init WARN ] --sw-opti is going to be deprecated. If you get real benefits from using this option, please open an issue to let us know.
-WARNING: BadAccess (attempt to access private resource denied)
-WARNING: Unable to grab key 'ctrl+space'.
+[ 02/20/2020 17:07:45.422 parse_config_libconfig WARN ] Option `no-dock-shadow` is deprecated, and will be removed. Please use the wintype option `shadow` of `dock` instead.
+[ 02/20/2020 17:07:45.678 swopti_init WARN ] --sw-opti is going to be deprecated. If you get real benefits from using this option, please open an issue to let us know.
 WARNING: BadAccess (attempt to access private resource denied)
 WARNING: BadAccess (attempt to access private resource denied)
 WARNING: Unable to grab key 'ctrl+grave'.
-CRITICAL: Cannot acquire 'org.freedesktop.Notifications': Name is acquired by '(null)' with PID '1015'.
-Gtk-Message: 09:09:56.200: Failed to load module "appmenu-gtk-module"
-urxvt: X connection to ':0' broken, unable to recover, exiting.
+WARNING: No icon found in path: 'dialog-information'
+WARNING: No icon found in path: 'dialog-information'
+WARNING: No icon found in path: 'dialog-information'
+WARNING: No icon found in path: 'dialog-information'
+WARNING: No icon found in path: 'dialog-information'

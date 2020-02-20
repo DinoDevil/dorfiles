@@ -200,7 +200,7 @@ ws-icon-9 = 10;
 ws-icon-default = " "
 
 
-format = <label-state>
+format = <label-state> <label-mode>
 
 label-focused = 
 label-focused-background = ${{colors.background-ws}}
@@ -256,6 +256,7 @@ exec = python ~/.config/polybar/spotify.py -f '{{song}} {{paused}}' -t 60
 click-left = dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
 format-background = ${{colors.foreground-sp}}
 format-foreground = ${{colors.background-sp}}
+format-underline = ${{colors.error}}
 
 [module/powermenu]
 type = custom/menu
