@@ -1,28 +1,28 @@
 {
     "wallpaper": "/home/dinodevil/.config/wpg/wallpapers/4.jpg",
-    "alpha": "100",
+    "alpha": "80",
 
     "special": {
-        "background": "#020202",
-        "foreground": "#afbecb",
-        "cursor": "#afbecb"
+        "background": "#22211f",
+        "foreground": "#c9c9b6",
+        "cursor": "#c9c9b6"
     },
     "colors": {
-        "color0": "#020202",
-        "color1": "#2C3946",
-        "color2": "#364654",
-        "color3": "#3B5165",
-        "color4": "#4E5A67",
-        "color5": "#9B8565",
-        "color6": "#5E748C",
-        "color7": "#afbecb",
-        "color8": "#7a858e",
-        "color9": "#2C3946",
-        "color10": "#364654",
-        "color11": "#3B5165",
-        "color12": "#4E5A67",
-        "color13": "#9B8565",
-        "color14": "#5E748C",
-        "color15": "#afbecb"
+        "color0": "#22211f",
+        "color1": "#785326",
+        "color2": "#516941",
+        "color3": "#827834",
+        "color4": "#42514f",
+        "color5": "#6a5632",
+        "color6": "#4e5d4d",
+        "color7": "#b4b399",
+        "color8": "#b4b399",
+        "color9": "#785326",
+        "color10": "#516941",
+        "color11": "#827834",
+        "color12": "#42514f",
+        "color13": "#6a5632",
+        "color14": "#4e5d4d",
+        "color15": "#c9c9b6"
     }
 }

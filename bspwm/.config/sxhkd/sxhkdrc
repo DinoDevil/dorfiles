@@ -58,7 +58,7 @@ super + p
 #    scr {_,-f,-s}
 	
 super + b
-	 alacritty -e $SHELL -i -c ranger &
+	 alacritty -e ranger &
 
 super + c
 	configopen	

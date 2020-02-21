@@ -1,0 +1,119 @@
+* {
+    spacing: 2;
+    background-color: #8c898b00;
+    border-color: #121c21FF;
+    text-color: #c9c5c7;
+    anchor: south east;
+    location: south east;
+}
+#window {
+    font: "Iosevka Nerd Font 13";
+    width: 20%;
+    transparency: "real";
+    background-color: #8c898b00;
+    border: 0;
+    padding: 0% 0% 1em 0%;
+    x-offset: -4px;
+    y-offset: 16;
+}
+#mainbox {
+    padding: 0px;
+    border: 0;
+    spacing: 1%;
+}
+#message {
+    border: 3px; 
+    padding: 1em; 
+    background-color: #000000FF; 
+    text-color: #c9c5c7;
+}
+#textbox normal {
+    text-color: #c9c5c7;
+    padding: 0;
+    border: 0;
+}
+#listview {
+    fixed-height: 1;
+    border: 3px;
+    padding: 1em;
+    reverse: false;
+
+    columns: 1;
+    lines: 6;
+    background-color: #5a4843FF; 
+}
+#element {
+    border: 0;
+    padding: 2px;
+    highlight: bold ;
+}
+#element normal.normal {
+    text-color: #c9c5c7FF;
+    background-color: #5a4843FF;
+}
+#element normal.urgent {
+    text-color: #c9c5c7FF;
+    background-color: #836962FF;
+}
+#element normal.active {
+    text-color: #121c21FF;
+    background-color: #c9c5c7FF;
+}
+#element selected.normal {
+    text-color: #c9c5c7FF;
+    background-color: #55585CFF;
+}
+#element selected.urgent {
+    text-color: #121c21FF;
+    background-color: #55585CFF;
+}
+#element selected.active {
+    text-color: #c9c5c7FF;
+    background-color: #121c21FF;
+}
+#element alternate.normal {
+    text-color: #c9c5c7FF;
+    background-color: #5a4843FF;
+}
+#element alternate.urgent {
+    text-color: #c9c5c7FF;
+    background-color: #836962FF;
+}
+#element alternate.active {
+    text-color: #121c21FF;
+    background-color: #c9c5c7FF;
+}
+#scrollbar {
+    border: 0;
+    padding: 0;
+}
+#inputbar {
+    spacing: 0;
+    border: 3px;
+    padding: 0.5em 1em;
+    background-color: #55585CFF;
+    index: 0;
+}
+#inputbar normal {
+    foreground-color: #c9c5c7FF;
+    background-color: #55585CFF;
+}
+
+#sidebar {
+    border: 3px;
+    padding: 0.5em 1em;
+    background-color: #000000FF;
+    index: 10;
+}
+#button selected {
+    text-color: #000000FF;
+}
+#inputbar {
+    children:   [ textbox-prompt-colon,entry,case-indicator ];
+}
+#textbox-prompt-colon {
+    expand:     false;
+    str:        "";
+    margin:     0px 0.3em 0em 0em ;
+    text-color: #c9c5c7;
+}

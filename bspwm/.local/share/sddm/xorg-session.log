@@ -1,6 +1,30 @@
-[ 02/21/2020 21:32:23.590 parse_config_libconfig WARN ] Option `no-dock-shadow` is deprecated, and will be removed. Please use the wintype option `shadow` of `dock` instead.
-[ 02/21/2020 21:32:24.187 swopti_init WARN ] --sw-opti is going to be deprecated. If you get real benefits from using this option, please open an issue to let us know.
-CRITICAL: Cannot acquire 'org.freedesktop.Notifications': Name is acquired by '(null)' with PID '1258'.
+WARNING: No icon found in path: 'dialog-information'
+[ 02/21/2020 22:32:09.066 parse_config_libconfig WARN ] Option `no-dock-shadow` is deprecated, and will be removed. Please use the wintype option `shadow` of `dock` instead.
+[ 02/21/2020 22:32:09.331 swopti_init WARN ] --sw-opti is going to be deprecated. If you get real benefits from using this option, please open an issue to let us know.
+Gtk-Message: 22:32:13.082: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:32:51.950: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:33:23.850: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:33:24.346: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:33:25.089: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:33:25.898: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:33:36.519: Failed to load module "appmenu-gtk-module"
+Invalid return value 0 for stream protocol
+Invalid return value 0 for stream protocol
+Gtk-Message: 22:34:53.809: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:34:54.299: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:34:54.862: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:34:55.413: Failed to load module "appmenu-gtk-module"
+erresc: unknown str ESC]10
+erresc: unknown str ESC]11
+erresc: unknown str ESC]12
+erresc: unknown str ESC]13
+erresc: unknown str ESC]17
+erresc: unknown str ESC]19
+erresc: unknown str ESC]708
+X Error of failed request:  BadMatch (invalid parameter attributes)
+  Major opcode of failed request:  62 (X_CopyArea)
+  Serial number of failed request:  64
+  Current serial number in output stream:  65
 erresc: unknown str ESC]10
 erresc: unknown str ESC]11
 erresc: unknown str ESC]12
@@ -15,14 +39,78 @@ erresc: unknown str ESC]13
 erresc: unknown str ESC]17
 erresc: unknown str ESC]19
 erresc: unknown str ESC]708
-[052 21:33:09.630364] [PARSE ERROR] Unknown OSC code: 13
-[052 21:33:09.630548] [PARSE ERROR] Unknown OSC code: 708
-[052 21:33:11.906192] [PARSE ERROR] Unknown OSC code: 13
-[052 21:33:11.906299] [PARSE ERROR] Unknown OSC code: 708
-[052 21:33:55.530391] [PARSE ERROR] Unknown char after ESC: 0x6b
-[052 21:33:55.530443] [PARSE ERROR] Unknown char after ESC: 0x5c
-[052 21:33:55.530454] [PARSE ERROR] Unknown char after ESC: 0x6b
-[052 21:33:55.530465] [PARSE ERROR] Unknown char after ESC: 0x5c
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 17362    0     0  100 17362      0  14676  0:00:01  0:00:01 --:--:-- 14676100 17385  100    23  100 17362     17  12870  0:00:01  0:00:01 --:--:-- 12896
+Gtk-Message: 22:39:39.773: Failed to load module "appmenu-gtk-module"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 17313    0     0  100 17313      0  14810  0:00:01  0:00:01 --:--:-- 14810100 17336  100    23  100 17313     16  12591  0:00:01  0:00:01 --:--:-- 12608
+Selection was cancelled by keystroke or right-click.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   174  100    21  100   153     40    293 --:--:-- --:--:-- --:--:--   332100   174  100    21  100   153     40    292 --:--:-- --:--:-- --:--:--   332
+stty: 'standard input': Inappropriate ioctl for device
+stty: 'standard input': Inappropriate ioctl for device
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   254  100    23  100   231     34    350 --:--:-- --:--:-- --:--:--   384
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 47683    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 47706  100    23  100 47683     17  36150  0:00:01  0:00:01 --:--:-- 36168
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 47676    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 47699  100    23  100 47676     14  30522  0:00:01  0:00:01 --:--:-- 30517100 47699  100    23  100 47676     14  30502  0:00:01  0:00:01 --:--:-- 30498
+giph: no process found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 22009  100    23  100 21986     20  19825  0:00:01  0:00:01 --:--:-- 19863100 22009  100    23  100 21986     20  19825  0:00:01  0:00:01 --:--:-- 19845
+erresc: unknown str ESC]10
+erresc: unknown str ESC]11
+erresc: unknown str ESC]12
+erresc: unknown str ESC]13
+erresc: unknown str ESC]17
+erresc: unknown str ESC]19
+erresc: unknown str ESC]708
+[052 22:43:02.388925] [PARSE ERROR] Unknown OSC code: 13
+[052 22:43:02.389086] [PARSE ERROR] Unknown OSC code: 708
+erresc: unknown str ESC]10
+erresc: unknown str ESC]11
+erresc: unknown str ESC]12
+erresc: unknown str ESC]13
+erresc: unknown str ESC]17
+erresc: unknown str ESC]19
+erresc: unknown str ESC]708
+X Error of failed request:  BadMatch (invalid parameter attributes)
+  Major opcode of failed request:  62 (X_CopyArea)
+  Serial number of failed request:  65
+  Current serial number in output stream:  66
+Gtk-Message: 22:43:33.301: Failed to load module "appmenu-gtk-module"
+erresc: unknown str ESC]10
+erresc: unknown str ESC]11
+erresc: unknown str ESC]12
+erresc: unknown str ESC]13
+erresc: unknown str ESC]17
+erresc: unknown str ESC]19
+erresc: unknown str ESC]708
+erresc: unknown str ESC]10
+erresc: unknown str ESC]11
+erresc: unknown str ESC]12
+erresc: unknown str ESC]13
+erresc: unknown str ESC]17
+erresc: unknown str ESC]19
+erresc: unknown str ESC]708
+erresc: unknown str ESC]10
+erresc: unknown str ESC]11
+erresc: unknown str ESC]12
+erresc: unknown str ESC]13
+erresc: unknown str ESC]17
+erresc: unknown str ESC]19
+erresc: unknown str ESC]708
+X Error of failed request:  BadMatch (invalid parameter attributes)
+  Major opcode of failed request:  62 (X_CopyArea)
+  Serial number of failed request:  64
+  Current serial number in output stream:  65
 erresc: unknown str ESC]10
 erresc: unknown str ESC]11
 erresc: unknown str ESC]12
