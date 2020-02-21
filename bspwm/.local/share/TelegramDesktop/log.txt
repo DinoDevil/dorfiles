@@ -93,3 +93,5 @@
 [2020.02.21 22:48:51] Audio Info: Closing audio playback device.
 [2020.02.21 22:49:34] Audio Info: recreating audio device and reattaching the tracks
 [2020.02.21 22:49:36] Audio Info: Closing audio playback device.
+[2020.02.21 22:51:09] Audio Info: recreating audio device and reattaching the tracks
+[2020.02.21 22:51:11] Audio Info: Closing audio playback device.
