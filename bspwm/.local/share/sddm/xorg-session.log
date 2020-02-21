@@ -1,10 +1,32 @@
-[ 02/20/2020 17:07:45.422 parse_config_libconfig WARN ] Option `no-dock-shadow` is deprecated, and will be removed. Please use the wintype option `shadow` of `dock` instead.
-[ 02/20/2020 17:07:45.678 swopti_init WARN ] --sw-opti is going to be deprecated. If you get real benefits from using this option, please open an issue to let us know.
-WARNING: BadAccess (attempt to access private resource denied)
-WARNING: BadAccess (attempt to access private resource denied)
-WARNING: Unable to grab key 'ctrl+grave'.
-WARNING: No icon found in path: 'dialog-information'
-WARNING: No icon found in path: 'dialog-information'
-WARNING: No icon found in path: 'dialog-information'
-WARNING: No icon found in path: 'dialog-information'
-WARNING: No icon found in path: 'dialog-information'
+[ 02/21/2020 21:32:23.590 parse_config_libconfig WARN ] Option `no-dock-shadow` is deprecated, and will be removed. Please use the wintype option `shadow` of `dock` instead.
+[ 02/21/2020 21:32:24.187 swopti_init WARN ] --sw-opti is going to be deprecated. If you get real benefits from using this option, please open an issue to let us know.
+CRITICAL: Cannot acquire 'org.freedesktop.Notifications': Name is acquired by '(null)' with PID '1258'.
+erresc: unknown str ESC]10
+erresc: unknown str ESC]11
+erresc: unknown str ESC]12
+erresc: unknown str ESC]13
+erresc: unknown str ESC]17
+erresc: unknown str ESC]19
+erresc: unknown str ESC]708
+erresc: unknown str ESC]10
+erresc: unknown str ESC]11
+erresc: unknown str ESC]12
+erresc: unknown str ESC]13
+erresc: unknown str ESC]17
+erresc: unknown str ESC]19
+erresc: unknown str ESC]708
+[052 21:33:09.630364] [PARSE ERROR] Unknown OSC code: 13
+[052 21:33:09.630548] [PARSE ERROR] Unknown OSC code: 708
+[052 21:33:11.906192] [PARSE ERROR] Unknown OSC code: 13
+[052 21:33:11.906299] [PARSE ERROR] Unknown OSC code: 708
+[052 21:33:55.530391] [PARSE ERROR] Unknown char after ESC: 0x6b
+[052 21:33:55.530443] [PARSE ERROR] Unknown char after ESC: 0x5c
+[052 21:33:55.530454] [PARSE ERROR] Unknown char after ESC: 0x6b
+[052 21:33:55.530465] [PARSE ERROR] Unknown char after ESC: 0x5c
+erresc: unknown str ESC]10
+erresc: unknown str ESC]11
+erresc: unknown str ESC]12
+erresc: unknown str ESC]13
+erresc: unknown str ESC]17
+erresc: unknown str ESC]19
+erresc: unknown str ESC]708

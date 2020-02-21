@@ -1,0 +1,21 @@
+[colors]
+background = {color0}
+foreground = {color15}
+active = {color10}
+inactive = {color0}
+highlight = {color0}
+background-time = {color4}
+foreground-time = {color15}
+background-ws = {color11}
+foreground-ws = {color15}
+foreground-sp = {color15}
+background-sp = {color4}
+foreground-xn = {color6}
+background-xn = {color10}
+foreground-wf = {color2}
+background-wf = {color10}
+error = {color4}
+primary = {color3}
+secondary= {color14}
+third = {color2}
+alert= {color4}

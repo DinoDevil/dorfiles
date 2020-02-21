@@ -1,24 +1,5 @@
-[colors]
-background = #0b0708
-foreground = #c9c0a9
-active = #766147
-inactive = #0b0708
-highlight = #0b0708
-background-time = #8C724F
-foreground-time = #c9c0a9
-background-ws = #93652F
-foreground-ws = #c9c0a9
-foreground-sp = #c9c0a9
-background-sp = #8C724F
-foreground-xn = #BE9947
-background-xn = #766147
-foreground-wf = #766147
-background-wf = #766147
-error = #8C724F
-primary = #93652F
-secondary= #BE9947
-third = #766147
-alert= #8C724F
+[bar/section]
+include-file = ~/.config/polybar/polybarcolor.conf
 
 [bar/main]
 override-redirect = false
@@ -29,8 +10,8 @@ offset-y = 0
 radius = 0.0
 fixed-center = true
 
-background = #0b070800
-foreground = #c9c0a9
+background = {color0}00
+foreground = {color15}
 
 line-size = 0
 label-line-color = #00000000
@@ -47,6 +28,8 @@ module-margin-left = 0
 module-margin-right = 0
 
 font-0 = Iosevka Nerd Font:size=8
+font-1 = FontAwesome:pixelsize=14;0
+
 
 locale = en_IN.UTF-8
 enable-ipc = true
@@ -92,13 +75,12 @@ label-connected = " %downspeed%  %upspeed%"
 type = internal/network
 interface = wlp7s0
 interval = 3.0
-click-left = nmtui-connect
 
 format-connected-padding = 1
 format-connected = <ramp-signal> <label-connected>
-label-connected = %essid%
-format-connected-background = ${colors.background-wf}
-format-connected-foreground = ${colors.foreground-wf}
+label-connected = %essid% % %local_ip% 
+format-connected-background = ${colors.background}
+format-connected-foreground = ${colors.foreground}
 
 format-disconnected =
 
@@ -134,7 +116,7 @@ type = internal/alsa
 
 format-volume = <ramp-volume> <label-volume>
 format-volume-padding = 1
-format-volume-background = ${colors.background-wf}
+format-volume-background = ${colors.background}
 format-volume-foreground = ${colors.foreground}
 ramp-volume-0 = 
 ramp-volume-1 = 
@@ -167,7 +149,7 @@ ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
-ramp-capacity-foreground = ${colors.foreground}
+ramp-capacity-foreground = ${colors.foreground-ws}
 
 animation-charging-foreground = ${colors.foreground}
 animation-charging-framerate = 500
@@ -187,57 +169,28 @@ enable-scroll = true
 reverse-scroll = true
 pin-workspaces = true
 
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
-ws-icon-9 = 10;
-ws-icon-default = " "
+format = <label-state>
 
-
-format = <label-state> <label-mode>
-
-label-focused = 
+label-focused = 
 label-focused-background = ${colors.background-ws}
 label-focused-padding = 2
 label-focused-foreground =  ${colors.third}
 
-label-occupied = 
+label-occupied = 
 label-occupied-padding = 2
 label-occupied-foreground =  ${colors.foreground-ws}
 label-occupied-background = ${colors.background-ws}
 
-label-urgent = 
+label-urgent = 
 label-urgent-padding = 2
 label-urgent-foreground = ${colors.alert}
 label-urgent-background = ${colors.background-ws}
 label-urgent-underline = ${colors.alert}
 
-label-empty = •
+label-empty = 
 label-empty-foreground = ${colors.foreground-ws}
 label-empty-padding = 2
 label-empty-background = ${colors.background-ws}
-label-monocle = "  "
-label-monocle-foreground = ${colors.foreground-ws}
-label-tiled = "  "
-label-tiled-foreground = ${colors.foreground-ws}
-label-fullscreen = "  "
-label-fullscreen-foreground = ${colors.foreground-ws}
-label-floating = "  "
-label-floating-foreground = ${colors.foreground-ws}
-label-pseudotiled = "  "
-label-pseudotiled-foreground = ${colors.foreground-ws}
-label-locked = "  "
-label-locked-foreground = ${colors.foreground-ws}
-label-sticky = "  "
-label-sticky-foreground = ${colors.foreground-ws}
-label-private =  "     "
-label-private-foreground = ${colors.foreground-ws}
 
 ; Separator in between workspaces
 ;label-separator = |
@@ -247,16 +200,15 @@ label-private-foreground = ${colors.foreground-ws}
 format-foreground = ${colors.foreground-ws}
 format-background = ${colors.background-ws}
 
+		
 [module/spotify]
 type = custom/script
 interval = 1
 format-prefix = " "
 format = <label>
 exec = python ~/.config/polybar/spotify.py -f '{song} {paused}' -t 60
-click-left = dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
 format-background = ${colors.foreground-sp}
 format-foreground = ${colors.background-sp}
-format-underline = ${colors.error}
 
 [module/powermenu]
 type = custom/menu
@@ -265,7 +217,6 @@ expand-right = false
 format-padding = 4
 format-spacing = 1
 label-active-font = 0
-
 label-open = ⏻ 
 label-open-foreground = ${colors.foreground}
 label-close =  

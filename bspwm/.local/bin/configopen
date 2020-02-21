@@ -4,4 +4,4 @@
 foo=$(cat "$XDG_DATA_HOME"/myconfigs | awk {'print $1'} | rofi -dmenu -i -format d)
 [ ! "$foo" ] && exit
 bar=$(sed -n "$foo"p "$XDG_DATA_HOME"/myconfigs | awk {'print $2'})
-urxvt -e micro "$bar"
+alacritty -e micro "$bar"

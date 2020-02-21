@@ -1,11 +1,18 @@
 super + Return
-	urxvt
+	alacritty
 
 super + shift + Return
-	alacritty
+	kitty
+
+alt + Return
+	st 
 	
 super + space
 	rofi -show combi -combi-modi "window#drun#run" -modi combi
+super + d
+	dmenu_run
+
+
 alt + t
 	notify-send "Data:$(date "+%F (%a) Time: %H:%M")" "$(acpi)\nDesktop: $(bspc query -D -d focused --names)\nNetwork Connected : $(nmcli -t -f name connection show --active)\nVolume: $(amixer -D pulse get Master | grep -o '[0-9][0-9]*%' | head -1)"  
 ;super + f
@@ -51,7 +58,7 @@ super + p
 #    scr {_,-f,-s}
 	
 super + b
-	urxvt -e ranger
+	 alacritty -e $SHELL -i -c ranger &
 
 super + c
 	configopen	
@@ -66,7 +73,7 @@ shift + Print
   maim -s -l -c 0.3,0,0.5,0.3 | curl -F "file=@-" 0x0.st | xclip -selection clipboard
 
 # take a screenshot of a selection, copy to clipbard
-ctrl + shift + Print
+alt + shift + Print
   maim -s -l -c 0.3,0,0.5,0.3 | xclip -selection c -t "image/png" 
 
 # start/stop a gif recording of a selection
